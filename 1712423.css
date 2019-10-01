@@ -1,0 +1,224 @@
+body
+{
+	background-color: #D4D1D1;
+}
+.logo
+{
+    float: left;
+}
+.cent
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.ima
+{
+    position: absolute;
+    left: 19px;
+    top: 4px;
+    padding-bottom: 60px;
+    opacity: 0;
+}
+.col-md-3,#box4:hover .ima
+{
+    opacity: 1;
+}
+.col-md-3,#box5:hover .ima
+{
+    opacity: 1;
+}
+.slogan
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bcbcbc;
+    font-size: 12pt;
+    line-height: 0.6;
+    display: inline;
+    position: absolute;
+}
+
+.call
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cd2027;
+    font-size: 16pt;
+    line-height: 0.6;
+    float: right;
+}
+.head
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+}
+b.text
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    line-height: 3;
+}
+.button1 {
+	-moz-box-shadow: -1px 0px 0px 5px #e2eaee;
+	-webkit-box-shadow: -1px 0px 0px 5px #e2eaee;
+	box-shadow: -1px 0px 0px 5px #e2eaee;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffbf00), color-stop(1, #ff6f00));
+	background:-moz-linear-gradient(top, #ffbf00 5%, #ff6f00 100%);
+	background:-webkit-linear-gradient(top, #ffbf00 5%, #ff6f00 100%);
+	background:-o-linear-gradient(top, #ffbf00 5%, #ff6f00 100%);
+	background:-ms-linear-gradient(top, #ffbf00 5%, #ff6f00 100%);
+	background:linear-gradient(to bottom, #ffbf00 5%, #ff6f00 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbf00', endColorstr='#ff6f00',GradientType=0);
+	background-color:#ffbf00;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #FF8742;
+	display:inline-block;
+	cursor:pointer;
+	color:#bf7a13;
+	font-family:Arial;
+	font-size:18px;
+	padding:14px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #bf7a13;
+}
+.button1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff6f00), color-stop(1, #ffbf00));
+	background:-moz-linear-gradient(top, #ff6f00 5%, #ffbf00 100%);
+	background:-webkit-linear-gradient(top, #ff6f00 5%, #ffbf00 100%);
+	background:-o-linear-gradient(top, #ff6f00 5%, #ffbf00 100%);
+	background:-ms-linear-gradient(top, #ff6f00 5%, #ffbf00 100%);
+	background:linear-gradient(to bottom, #ff6f00 5%, #ffbf00 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6f00', endColorstr='#ffbf00',GradientType=0);
+	background-color:#ff6f00;
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
+.button2 {
+	-moz-box-shadow: 0px 0px 0px 6px #e2eaee;
+	-webkit-box-shadow: 0px 0px 0px 6px #e2eaee;
+	box-shadow: 0px 0px 0px 6px #e2eaee;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e0e0e0), color-stop(1, #e0e0e0));
+	background:-moz-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:-webkit-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:-o-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:-ms-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:linear-gradient(to bottom, #e0e0e0 5%, #e0e0e0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#e0e0e0',GradientType=0);
+	background-color:#e0e0e0;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#9c9c9c;
+	font-family:Arial;
+	font-size:19px;
+	padding:14px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9c9c9c;
+}
+.button2:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e0e0e0), color-stop(1, #e0e0e0));
+	background:-moz-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:-webkit-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:-o-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:-ms-linear-gradient(top, #e0e0e0 5%, #e0e0e0 100%);
+	background:linear-gradient(to bottom, #e0e0e0 5%, #e0e0e0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#e0e0e0',GradientType=0);
+	background-color:#e0e0e0;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+#main
+{
+    padding: 30px;
+}
+#box1
+{
+    padding: 60px;
+}
+#box2
+{
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#box3
+{
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#box4
+{
+    position:relative;
+    left: 50px;
+    padding-bottom: 60px;
+}
+#box5
+{
+    position:relative;
+    left:20px;
+    padding-bottom: 60px;
+}
+#logovsslogan
+{
+    background-color: white;
+}
+#slider
+{
+    background-color: #F7F7F7;
+}
+#prefooter
+{
+    background-color: #303030;
+    padding: 20px;
+}
+#footer
+{
+    background-color: #222222;
+    padding: 20px;
+}
+#prefooter b.text
+{
+    color: #cecece;
+}
+#prefooter p
+{
+    color: #cecece;
+}
+#footer p
+{
+    color: #8c8c8c;
+    display: inline;
+}
+a p
+{
+    color: #dd8c5c;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon
+{
+    float: right;
+}
+.ihover
+{
+    display: inline;
+}
+.iconhover
+{
+    position: absolute;
+    right: 15px;
+    opacity: 0;
+}
+.ihover:hover .iconhover
+{
+    opacity: 1;
+}
